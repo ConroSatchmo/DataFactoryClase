@@ -1,0 +1,41 @@
+{
+	"name": "SalidaLocationsScripts",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "StorageclaseDataflow",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "Simpsons"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "locationsscripts.parquet",
+				"folderPath": "Trusted/Simpsons",
+				"fileSystem": "clasedf"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": [
+			{
+				"name": "movieId",
+				"type": "INT32"
+			},
+			{
+				"name": "title",
+				"type": "UTF8"
+			},
+			{
+				"name": "genres",
+				"type": "UTF8"
+			},
+			{
+				"name": "year",
+				"type": "INT32"
+			}
+		]
+	}
+}
