@@ -14,7 +14,7 @@
 			"location": {
 				"type": "AzureBlobFSLocation",
 				"fileName": "episodesscripts.parquet",
-				"folderPath": "Trusted/Simpsons",
+				"folderPath": "Trusted/Simpsons/episodesscripts",
 				"fileSystem": "clasedf"
 			},
 			"compressionCodec": "snappy"

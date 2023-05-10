@@ -14,7 +14,7 @@
 			"location": {
 				"type": "AzureBlobFSLocation",
 				"fileName": "characters.parquet",
-				"folderPath": "Trusted/Simpsons",
+				"folderPath": "Trusted/Simpsons/characters",
 				"fileSystem": "clasedf"
 			},
 			"compressionCodec": "snappy"
