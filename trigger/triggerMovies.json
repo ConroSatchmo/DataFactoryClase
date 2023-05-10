@@ -1,0 +1,25 @@
+{
+	"name": "triggerMovies",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "pl_movies",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Day",
+				"interval": 1,
+				"startTime": "2023-05-11T21:05:00Z",
+				"endTime": "2023-05-26T17:05:00Z",
+				"timeZone": "UTC"
+			}
+		}
+	}
+}
