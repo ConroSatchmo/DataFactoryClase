@@ -1,0 +1,9 @@
+{
+	"name": "factorytekne",
+	"location": "brazilsouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "4911f49e-f73f-4f37-a41a-35647e28a11c",
+		"tenantId": "15d35be8-75e6-4c6c-8e94-424900997a8e"
+	}
+}
